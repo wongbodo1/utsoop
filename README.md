@@ -1,8 +1,8 @@
 # utsoop
-UTS OOP2 Kelompok Afidah unch unch\n\n
+UTS OOP2 Kelompok Afidah unch unch
 
---> Afidah Khairina\n
---> Amalia Nurul Fauziah\n
---> Dwi Cahyo Saputro\n
---> Reza Karindra\n
+--> Afidah Khairina
+--> Amalia Nurul Fauziah
+--> Dwi Cahyo Saputro
+--> Reza Karindra
 :)
