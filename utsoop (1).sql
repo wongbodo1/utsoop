@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 16 Nov 2017 pada 08.38
+-- Generation Time: 16 Nov 2017 pada 16.39
 -- Versi Server: 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `buku` (
-  `id` int(100) NOT NULL,
+  `id` varchar(100) NOT NULL,
   `nama` varchar(100) NOT NULL,
   `judul_buku` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -37,9 +37,11 @@ CREATE TABLE `buku` (
 --
 
 INSERT INTO `buku` (`id`, `nama`, `judul_buku`) VALUES
-(1, 'Awan Pribadi Basuki ', 'Konsep dan Teknik Menguasai Modern OOP di PHP Lokomedia'),
-(2, 'Tere Liye', 'Rindu'),
-(3, 'Tere Liye', 'Daun Yang Jatuh Tak Pernah Membenci Angin');
+('1', 'Awan Pribadi Basuki ', 'Konsep dan Teknik Menguasai Modern OOP di PHP Lokomedia'),
+('2', 'Tere Liye', 'Rindu'),
+('3', 'Tere Liye', 'Daun Yang Jatuh Tak Pernah Membenci Angin'),
+('4', 'Felix Siauw', 'Udah Putusin Aja!'),
+('5', 'Afidah Khairina', 'OOP 2');
 
 --
 -- Indexes for dumped tables
