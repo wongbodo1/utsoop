@@ -11,7 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     </head>
-    <body>
+    <body bgcolor="#33d8c9">
     <center><h1>Tambah Data</h1></center>
     <center>
         <form method="post" th:object="${buku}" th:action="@{/tambah}">
@@ -29,10 +29,11 @@ and open the template in the editor.
                 <td><input type="text" th:field="*{judul_buku}"/></td>
             </tr>
         </table>
-        <button type="submit">Simpan</button>
+            <button type="submit">Simpan</button>&nbsp;&nbsp;<button><a href="home.html">Kembali</a></button>
+            
+            
     </form>
     </center>
-        <center><a href="home.html">Kembali</a></center>        
-
+        
     </body>
 </html>
